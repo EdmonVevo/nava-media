@@ -481,10 +481,34 @@ body {
     text-align: left !important;
   }
 
+  .section-we-do .container {
+    background-size: 73px;
+  }
+
+  .section-nava-work-inner {
+    background-size: 52px, 50px;
+    background-position: 10px bottom, 98% 10px;
+  }
+
+  .section-why-nava-inner {
+    background-size: 65px;
+    background-position: 10px 61px;
+  }
+
+  .section-package .container {
+    background-size: 100px, 150px;
+    background-position: 0 30px, top right;
+  }
+
+  .section-get-in-touch-inner {
+    background-size: 85px, 42px, 55px;
+    background-position: 0 30px, 27% bottom, top right;
+  }
+
   .fs-12-mobile {
     font-size: 12px;
   }
-  .mb-25-mobile {
+  .col-xl-3.col-md-3.col-6.mb-25-mobile {
     margin-bottom: 25px !important;
     padding: 0;
   }
@@ -724,6 +748,7 @@ body {
     margin-top: -10px;
     background-position: 100% 100%;
     background-size: 106px;
+    padding-bottom: 40px;
   }
 
   .section-why-nava {
@@ -778,7 +803,7 @@ body {
   }
 
   .section-package .mb-25-mobile {
-    padding: 0 5px;
+    padding: 0 5px !important;
     margin-bottom: 10px !important;
   }
 
