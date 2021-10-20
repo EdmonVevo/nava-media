@@ -105,22 +105,33 @@ body {
   margin-bottom: 40px;
 }
 
-.section-we-do {
+.section-we-do .container {
   background-image: url("../img/lets-crush-it-shapes-left.svg");
   background-repeat: no-repeat;
-  background-position: 97% 70%;
+  background-position: 99% 93%;
 }
 .section-we-do .section-text {
   max-width: 598px;
 }
 .section-we-do .right-block {
 }
+
 .section-nava-work {
   padding: 70px 0;
-  background-image: url("../img/nava-work-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: transparent linear-gradient(110deg, #c5abe76b 0%, #e4b7d83d 100%)
+    0% 0% no-repeat padding-box;
 }
+
+.section-nava-work-inner {
+  width: 100vw;
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url("../img/combinations/how-does-nava-work-shapes-left.svg"),
+    url("../img/combinations/how-does-nava-work-shapes-right.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 bottom, top right;
+}
+
 .nava-block {
   margin-bottom: 66px;
 }
@@ -129,7 +140,10 @@ body {
   margin-bottom: 34px;
 }
 
-.section-why-nava {
+.section-why-nava-inner {
+  max-width: 1600px;
+  width: 100vw;
+  margin: 0 auto;
   padding: 20px 0;
   background-image: url("../img/combinations/why-nava-media-shapes.svg");
   background-repeat: no-repeat;
@@ -182,16 +196,13 @@ body {
 
 .section-package {
   padding: 60px 0;
-  background-image: url("../img/combinations/lets-crush-it-shapes-left.svg");
-  background-repeat: no-repeat;
-  background-position: 30px 30px;
 }
 
 .section-package .container {
-  padding: 60px 0;
-  background-image: url("../img/combinations/lets-crush-it-shapes-right.svg");
-  background-repeat: no-repeat;
-  background-position: top right;
+  background-image: url("../img/combinations/lets-crush-it-shapes-left.svg"),
+    url("../img/combinations/lets-crush-it-shapes-right.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0 30px, top right;
 }
 .section-package .section-text {
   max-width: unset;
@@ -250,11 +261,22 @@ body {
   max-width: 532px;
 }
 .section-get-in-touch {
-  background-image: url("../img/get-in-touch--bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: transparent linear-gradient(110deg, #c5abe773 0%, #e4b7d875 100%)
+    0% 0% no-repeat padding-box;
   padding: 70px 0;
 }
+
+.section-get-in-touch-inner {
+  width: 100vw;
+  max-width: 1400px;
+  margin: 0 auto;
+  background-image: url("../img/combinations/get-in-touch-with-us-shapes-left.svg"),
+    url("../img/combinations/get-in-touch-with-us-shapes-bottom.svg"),
+    url("../img/combinations/get-in-touch-with-us-shapes-right.svg");
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: 0 30px, center bottom, top right;
+}
+
 .form .form-input,
 .form .form-textarea {
   max-width: 500px;
@@ -483,9 +505,7 @@ body {
   .top-banner {
     padding-top: 0;
   }
-  .section-nava-work {
-    background-image: url("../img/mobile/nava-work-bg.png");
-  }
+
   .btn-pink span {
     margin-right: 0;
   }
@@ -601,9 +621,7 @@ body {
     top: 100px;
     left: 60px;
   }
-  .section-get-in-touch {
-    background-image: url("../img/mobile/form-bg.png");
-  }
+
   .form {
     padding: 0 !important;
   }
@@ -662,6 +680,24 @@ body {
     );
     padding-bottom: 0;
   }
+
+  .section-we-do .container {
+    background-size: 55px;
+    background-position: 98% 98%;
+  }
+
+  .section-nava-work-inner {
+    background-size: 40px, 40px;
+    background-position: 10px 79%, 96% 112px;
+  }
+
+  .section-get-in-touch-inner {
+    background-image: url(../img/combinations/get-in-touch-with-us-shapes-right.svg),
+      url(../img/combinations/get-in-touch-with-us-shapes-bottom.svg);
+    background-size: 40px, 70px;
+    background-position: 32px 99%, 97% 97%;
+  }
+
   .top-banner-background-image {
     background-image: url("../img/top-banner.png");
     background-repeat: no-repeat;
