@@ -172,12 +172,21 @@ body {
   width: 55vw;
 }
 
-.section-slide-show .container {
+.section-slide-show-inner {
+  background: transparent linear-gradient(245deg, #c5abe78c 0%, #e4b7d845 100%)
+    0% 0% no-repeat padding-box;
+  border-radius: 30px;
+}
+
+.section-slide-show .container:not(.section-slide-show-inner) {
   margin-top: 80px;
   height: 100%;
-  background-image: url("../img/slide-show--bg.png");
+
+  background-image: url("../img/combinations/these-awesome-brands-shapes-top.svg"),
+    url("../img/combinations/these-awesome-brands-shapes-bottom.svg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-position: 10px 10px, 31% 92%;
+  padding: 40px 0;
   /* padding: 60px 0 80px 100px; */
 }
 .slide-icon {
@@ -458,24 +467,9 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* .top-banner {
-    background-image: initial;
-    background: linear-gradient(
-      to bottom,
-      #b2deeb,
-      #b2deeb,
-      #e1bfe5,
-      #e1bfe5,
-      rgb(255, 255, 255)
-    );
-  } */
-  /* .top-banner-background-image {
-    background-image: url("../img/top-banner.png");
-    background-repeat: no-repeat;
-    background-size: 450px;
-    padding-top: 0;
-    background-position: top right;
-  } */
+  .section-slide-show .container:not(.section-slide-show-inner) {
+    background-size: 140px, 100px;
+  }
 
   .top-banner-background-image {
     min-height: initial;
@@ -624,12 +618,8 @@ body {
   }
   .section-slide-show {
     padding: 30px 0;
-    background-image: url("../img/mobile/slide-show-bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   .section-slide-show .container {
-    background-image: unset;
     margin-top: 0;
   }
   .section-slide-show .row {
@@ -735,6 +725,11 @@ body {
     background-size: 105%;
     padding-top: 310px;
     background-position: 10px 0;
+  }
+
+  .section-slide-show .container:not(.section-slide-show-inner) {
+    background-size: 100px, 80px;
+    background-position: 10px 10px, 42% 100%;
   }
 
   .top-banner-background-image .text-center-mobile {

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="138.5" height="172.039" viewBox="0 0 138.5 172.039">
+  <g id="Group_133" data-name="Group 133" transform="translate(-443 -3824.978)">
+    <g id="Ellipse_12" data-name="Ellipse 12" transform="translate(549.5 3824.978)" fill="none" stroke="#f800c6" stroke-width="2" opacity="0.3">
+      <ellipse cx="16" cy="16" rx="16" ry="16" stroke="none"/>
+      <ellipse cx="16" cy="16" rx="15" ry="15" fill="none"/>
+    </g>
+    <g id="Polygon_34" data-name="Polygon 34" transform="translate(475.718 3954.983) rotate(47)" fill="none" opacity="0.3">
+      <path d="M16,0,32,27.317H0Z" stroke="none"/>
+      <path d="M 15.99999809265137 3.957241058349609 L 3.489242553710938 25.31706428527832 L 28.5107536315918 25.31706428527832 L 15.99999809265137 3.957241058349609 M 15.99999809265137 -5.7220458984375e-06 L 31.99999809265137 27.31706428527832 L -1.9073486328125e-06 27.31706428527832 L 15.99999809265137 -5.7220458984375e-06 Z" stroke="none" fill="#6900ef"/>
+    </g>
+    <g id="Rectangle_95" data-name="Rectangle 95" transform="matrix(-0.309, -0.951, 0.951, -0.309, 451.652, 3900.26)" fill="none" stroke="#1dc5ff" stroke-width="2" opacity="0.3">
+      <rect width="28" height="28" stroke="none"/>
+      <rect x="1" y="1" width="26" height="26" fill="none"/>
+    </g>
+  </g>
+</svg>
