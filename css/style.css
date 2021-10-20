@@ -391,6 +391,12 @@ body {
 
   .navbar-expand-lg .navbar-collapse {
     padding-left: 30px;
+    left: 0%;
+  }
+
+  .collapse:not(.show) {
+    display: block !important;
+    left: -100%;
   }
 
   .nava-block .title {
@@ -549,6 +555,7 @@ body {
     top: -46px;
     left: 0;
     height: 100vh;
+    transition: 300ms all ease;
     width: 175px;
     padding: 15px 15px 15px 20px;
   }
