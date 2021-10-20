@@ -75,7 +75,7 @@ body {
     0% no-repeat padding-box;
   background-image: url("../img/top-banner-full.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   background-position: bottom;
 }
 .top-banner-background-image {
