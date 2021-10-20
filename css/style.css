@@ -451,6 +451,7 @@ body {
   }
   .mb-25-mobile {
     margin-bottom: 25px !important;
+    padding: 0;
   }
   .text-center-mobile {
     text-align: center;
