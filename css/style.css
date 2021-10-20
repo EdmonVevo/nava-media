@@ -131,6 +131,9 @@ body {
 
 .section-why-nava {
   padding: 20px 0;
+  background-image: url("../img/combinations/why-nava-media-shapes.svg");
+  background-repeat: no-repeat;
+  background-position: 30px 30px;
 }
 .section-why-nava .section-text {
   max-width: 588px;
@@ -179,6 +182,16 @@ body {
 
 .section-package {
   padding: 60px 0;
+  background-image: url("../img/combinations/lets-crush-it-shapes-left.svg");
+  background-repeat: no-repeat;
+  background-position: 30px 30px;
+}
+
+.section-package .container {
+  padding: 60px 0;
+  background-image: url("../img/combinations/lets-crush-it-shapes-right.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 .section-package .section-text {
   max-width: unset;
@@ -710,6 +723,19 @@ body {
     padding: 30px 0;
   }
 
+  .section-package {
+    background: none;
+  }
+
+  .section-package .row {
+    max-width: 100%;
+    margin: 0 !important;
+  }
+
+  .section-package .container {
+    background: none;
+    padding-bottom: 0;
+  }
   .section-package .section-text {
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -732,6 +758,7 @@ body {
 
   .section-we-care .fs-12-tablet {
     margin-bottom: 30px !important;
+    padding-left: 0;
   }
 
   .form .form-input {
@@ -765,5 +792,9 @@ body {
 
   .swiper img {
     max-width: initial;
+  }
+
+  .mb-25-mobile {
+    padding: 10px 13px;
   }
 }
