@@ -466,6 +466,35 @@ body {
   }
 }
 
+@media (max-width: 812px) {
+  .navbar-collapse {
+    background: #ffb1f2;
+    background: -webkit-linear-gradient(bottom, #efefef, #ffcbf6);
+    background: -moz-linear-gradient(bottom, #efefef, #ffcbf6);
+    background: linear-gradient(to top, #efefef, #ffcbf6);
+    position: absolute;
+    top: -46px;
+    left: 0;
+    height: 100vh;
+    transition: 300ms all ease;
+    width: 175px;
+    padding: 15px 15px 15px 20px;
+  }
+
+  .navbar-btn {
+    display: inline-block;
+    float: right;
+  }
+
+  .navbar-nav {
+    margin-top: 40px;
+  }
+
+  .navbar-nav li {
+    border-bottom: 0.5px solid #707070;
+  }
+}
+
 @media (max-width: 768px) {
   .section-slide-show .container:not(.section-slide-show-inner) {
     background-size: 140px, 100px;
@@ -481,6 +510,10 @@ body {
     text-align: left !important;
   }
 
+  .section-we-do {
+    padding-bottom: 40px;
+  }
+
   .section-we-do .container {
     background-size: 73px;
   }
@@ -488,6 +521,10 @@ body {
   .section-nava-work-inner {
     background-size: 52px, 50px;
     background-position: 10px bottom, 98% 10px;
+  }
+
+  .section-why-nava .section-text {
+    margin: 0 auto;
   }
 
   .section-why-nava-inner {
@@ -518,10 +555,7 @@ body {
   .column-mobile {
     flex-direction: column;
   }
-  .navbar-btn {
-    display: inline-block;
-    float: right;
-  }
+
   /* .top-banner .row,
   .section-why-nava .row {
     flex-direction: column-reverse;
@@ -539,19 +573,6 @@ body {
   .header-logo {
     margin-bottom: unset;
     margin-right: 0;
-  }
-  .navbar-collapse {
-    background: #ffb1f2;
-    background: -webkit-linear-gradient(bottom, #efefef, #ffcbf6);
-    background: -moz-linear-gradient(bottom, #efefef, #ffcbf6);
-    background: linear-gradient(to top, #efefef, #ffcbf6);
-    position: absolute;
-    top: -46px;
-    left: 0;
-    height: 100vh;
-    transition: 300ms all ease;
-    width: 175px;
-    padding: 15px 15px 15px 20px;
   }
   .navbar-nav {
     margin-top: 20px;
@@ -582,7 +603,6 @@ body {
     padding-right: 0 !important;
   }
   .section .section-text {
-    margin: auto;
     padding-bottom: 18px;
     font-size: 12px;
     line-height: 20px;
